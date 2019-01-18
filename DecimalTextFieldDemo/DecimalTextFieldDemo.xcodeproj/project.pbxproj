@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1ECBBA21F1DF740015FA14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBB921F1DF740015FA14 /* AppDelegate.m */; };
+		6B1ECBBD21F1DF740015FA14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBBC21F1DF740015FA14 /* ViewController.m */; };
+		6B1ECBC021F1DF740015FA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ECBBE21F1DF740015FA14 /* Main.storyboard */; };
+		6B1ECBC221F1DF750015FA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ECBC121F1DF750015FA14 /* Assets.xcassets */; };
+		6B1ECBC521F1DF750015FA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1ECBC321F1DF750015FA14 /* LaunchScreen.storyboard */; };
+		6B1ECBC821F1DF750015FA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBC721F1DF750015FA14 /* main.m */; };
+		6B1ECBD221F1DF750015FA14 /* DecimalTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBD121F1DF750015FA14 /* DecimalTextFieldDemoTests.m */; };
+		6B1ECBDD21F1DF750015FA14 /* DecimalTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBDC21F1DF750015FA14 /* DecimalTextFieldDemoUITests.m */; };
+		6B1ECBED21F1DF8A0015FA14 /* DecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1ECBEB21F1DF890015FA14 /* DecimalTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B1ECBCE21F1DF750015FA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1ECBAD21F1DF740015FA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1ECBB421F1DF740015FA14;
+			remoteInfo = DecimalTextFieldDemo;
+		};
+		6B1ECBD921F1DF750015FA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B1ECBAD21F1DF740015FA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B1ECBB421F1DF740015FA14;
+			remoteInfo = DecimalTextFieldDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B1ECBB521F1DF740015FA14 /* DecimalTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecimalTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1ECBB821F1DF740015FA14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B1ECBB921F1DF740015FA14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B1ECBBB21F1DF740015FA14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B1ECBBC21F1DF740015FA14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B1ECBBF21F1DF740015FA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B1ECBC121F1DF750015FA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B1ECBC421F1DF750015FA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B1ECBC621F1DF750015FA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1ECBC721F1DF750015FA14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B1ECBCD21F1DF750015FA14 /* DecimalTextFieldDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalTextFieldDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1ECBD121F1DF750015FA14 /* DecimalTextFieldDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalTextFieldDemoTests.m; sourceTree = "<group>"; };
+		6B1ECBD321F1DF750015FA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1ECBD821F1DF750015FA14 /* DecimalTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecimalTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1ECBDC21F1DF750015FA14 /* DecimalTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecimalTextFieldDemoUITests.m; sourceTree = "<group>"; };
+		6B1ECBDE21F1DF750015FA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1ECBEB21F1DF890015FA14 /* DecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecimalTextField.m; sourceTree = "<group>"; };
+		6B1ECBEC21F1DF890015FA14 /* DecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecimalTextField.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B1ECBB221F1DF740015FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBCA21F1DF750015FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBD521F1DF750015FA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1ECBAC21F1DF740015FA14 = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBB721F1DF740015FA14 /* DecimalTextFieldDemo */,
+				6B1ECBD021F1DF750015FA14 /* DecimalTextFieldDemoTests */,
+				6B1ECBDB21F1DF750015FA14 /* DecimalTextFieldDemoUITests */,
+				6B1ECBB621F1DF740015FA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B1ECBB621F1DF740015FA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBB521F1DF740015FA14 /* DecimalTextFieldDemo.app */,
+				6B1ECBCD21F1DF750015FA14 /* DecimalTextFieldDemoTests.xctest */,
+				6B1ECBD821F1DF750015FA14 /* DecimalTextFieldDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B1ECBB721F1DF740015FA14 /* DecimalTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBEA21F1DF890015FA14 /* DecimalTextField */,
+				6B1ECBB821F1DF740015FA14 /* AppDelegate.h */,
+				6B1ECBB921F1DF740015FA14 /* AppDelegate.m */,
+				6B1ECBBB21F1DF740015FA14 /* ViewController.h */,
+				6B1ECBBC21F1DF740015FA14 /* ViewController.m */,
+				6B1ECBBE21F1DF740015FA14 /* Main.storyboard */,
+				6B1ECBC121F1DF750015FA14 /* Assets.xcassets */,
+				6B1ECBC321F1DF750015FA14 /* LaunchScreen.storyboard */,
+				6B1ECBC621F1DF750015FA14 /* Info.plist */,
+				6B1ECBC721F1DF750015FA14 /* main.m */,
+			);
+			path = DecimalTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		6B1ECBD021F1DF750015FA14 /* DecimalTextFieldDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBD121F1DF750015FA14 /* DecimalTextFieldDemoTests.m */,
+				6B1ECBD321F1DF750015FA14 /* Info.plist */,
+			);
+			path = DecimalTextFieldDemoTests;
+			sourceTree = "<group>";
+		};
+		6B1ECBDB21F1DF750015FA14 /* DecimalTextFieldDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBDC21F1DF750015FA14 /* DecimalTextFieldDemoUITests.m */,
+				6B1ECBDE21F1DF750015FA14 /* Info.plist */,
+			);
+			path = DecimalTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		6B1ECBEA21F1DF890015FA14 /* DecimalTextField */ = {
+			isa = PBXGroup;
+			children = (
+				6B1ECBEC21F1DF890015FA14 /* DecimalTextField.h */,
+				6B1ECBEB21F1DF890015FA14 /* DecimalTextField.m */,
+			);
+			name = DecimalTextField;
+			path = ../../DecimalTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B1ECBB421F1DF740015FA14 /* DecimalTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1ECBE121F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemo" */;
+			buildPhases = (
+				6B1ECBB121F1DF740015FA14 /* Sources */,
+				6B1ECBB221F1DF740015FA14 /* Frameworks */,
+				6B1ECBB321F1DF740015FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecimalTextFieldDemo;
+			productName = DecimalTextFieldDemo;
+			productReference = 6B1ECBB521F1DF740015FA14 /* DecimalTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B1ECBCC21F1DF750015FA14 /* DecimalTextFieldDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1ECBE421F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemoTests" */;
+			buildPhases = (
+				6B1ECBC921F1DF750015FA14 /* Sources */,
+				6B1ECBCA21F1DF750015FA14 /* Frameworks */,
+				6B1ECBCB21F1DF750015FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1ECBCF21F1DF750015FA14 /* PBXTargetDependency */,
+			);
+			name = DecimalTextFieldDemoTests;
+			productName = DecimalTextFieldDemoTests;
+			productReference = 6B1ECBCD21F1DF750015FA14 /* DecimalTextFieldDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B1ECBD721F1DF750015FA14 /* DecimalTextFieldDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1ECBE721F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemoUITests" */;
+			buildPhases = (
+				6B1ECBD421F1DF750015FA14 /* Sources */,
+				6B1ECBD521F1DF750015FA14 /* Frameworks */,
+				6B1ECBD621F1DF750015FA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B1ECBDA21F1DF750015FA14 /* PBXTargetDependency */,
+			);
+			name = DecimalTextFieldDemoUITests;
+			productName = DecimalTextFieldDemoUITests;
+			productReference = 6B1ECBD821F1DF750015FA14 /* DecimalTextFieldDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B1ECBAD21F1DF740015FA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zsm;
+				TargetAttributes = {
+					6B1ECBB421F1DF740015FA14 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					6B1ECBCC21F1DF750015FA14 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B1ECBB421F1DF740015FA14;
+					};
+					6B1ECBD721F1DF750015FA14 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6B1ECBB421F1DF740015FA14;
+					};
+				};
+			};
+			buildConfigurationList = 6B1ECBB021F1DF740015FA14 /* Build configuration list for PBXProject "DecimalTextFieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B1ECBAC21F1DF740015FA14;
+			productRefGroup = 6B1ECBB621F1DF740015FA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B1ECBB421F1DF740015FA14 /* DecimalTextFieldDemo */,
+				6B1ECBCC21F1DF750015FA14 /* DecimalTextFieldDemoTests */,
+				6B1ECBD721F1DF750015FA14 /* DecimalTextFieldDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B1ECBB321F1DF740015FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1ECBC521F1DF750015FA14 /* LaunchScreen.storyboard in Resources */,
+				6B1ECBC221F1DF750015FA14 /* Assets.xcassets in Resources */,
+				6B1ECBC021F1DF740015FA14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBCB21F1DF750015FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBD621F1DF750015FA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B1ECBB121F1DF740015FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1ECBBD21F1DF740015FA14 /* ViewController.m in Sources */,
+				6B1ECBED21F1DF8A0015FA14 /* DecimalTextField.m in Sources */,
+				6B1ECBC821F1DF750015FA14 /* main.m in Sources */,
+				6B1ECBBA21F1DF740015FA14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBC921F1DF750015FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1ECBD221F1DF750015FA14 /* DecimalTextFieldDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B1ECBD421F1DF750015FA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1ECBDD21F1DF750015FA14 /* DecimalTextFieldDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B1ECBCF21F1DF750015FA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1ECBB421F1DF740015FA14 /* DecimalTextFieldDemo */;
+			targetProxy = 6B1ECBCE21F1DF750015FA14 /* PBXContainerItemProxy */;
+		};
+		6B1ECBDA21F1DF750015FA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B1ECBB421F1DF740015FA14 /* DecimalTextFieldDemo */;
+			targetProxy = 6B1ECBD921F1DF750015FA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B1ECBBE21F1DF740015FA14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1ECBBF21F1DF740015FA14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B1ECBC321F1DF750015FA14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1ECBC421F1DF750015FA14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B1ECBDF21F1DF750015FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B1ECBE021F1DF750015FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B1ECBE221F1DF750015FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B1ECBE321F1DF750015FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B1ECBE521F1DF750015FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalTextFieldDemo.app/DecimalTextFieldDemo";
+			};
+			name = Debug;
+		};
+		6B1ECBE621F1DF750015FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecimalTextFieldDemo.app/DecimalTextFieldDemo";
+			};
+			name = Release;
+		};
+		6B1ECBE821F1DF750015FA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecimalTextFieldDemo;
+			};
+			name = Debug;
+		};
+		6B1ECBE921F1DF750015FA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRN7UD69F8;
+				INFOPLIST_FILE = DecimalTextFieldDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zsm.DecimalTextFieldDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DecimalTextFieldDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B1ECBB021F1DF740015FA14 /* Build configuration list for PBXProject "DecimalTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1ECBDF21F1DF750015FA14 /* Debug */,
+				6B1ECBE021F1DF750015FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1ECBE121F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1ECBE221F1DF750015FA14 /* Debug */,
+				6B1ECBE321F1DF750015FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1ECBE421F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1ECBE521F1DF750015FA14 /* Debug */,
+				6B1ECBE621F1DF750015FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1ECBE721F1DF750015FA14 /* Build configuration list for PBXNativeTarget "DecimalTextFieldDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B1ECBE821F1DF750015FA14 /* Debug */,
+				6B1ECBE921F1DF750015FA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B1ECBAD21F1DF740015FA14 /* Project object */;
+}
