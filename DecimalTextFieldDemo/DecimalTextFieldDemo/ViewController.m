@@ -19,13 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    
+    //方法一.精简写法《需要设置代理》
+//    self.textField.decimalScale = 3;
 }
+//方法二.代理写法
 //MARK: --DecimalTextFieldDelegate 实现此代理方法用户限制用户输入小数
 - (BOOL)decimalTextField:(DecimalTextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string hasDot:(BOOL)hasDot{
-    
-    
+
+
     if (string.length > 0) {
         // 小数点后最多能输入几位
         if (hasDot) {
@@ -37,10 +38,10 @@
                     scale = ScaleLimit;
                 }
                 if ([textField.text pathExtension].length >= scale) {
-                    
+
                     NSLog(@"只能输入%d位小数",scale);
-                    
-                    
+
+
                     return NO;
                 }
             }

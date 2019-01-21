@@ -10,7 +10,7 @@
 @class DecimalTextField;
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol DecimalTextFieldDelegate <NSObject>
+@protocol DecimalTextFieldDelegate <NSObject ,UITextFieldDelegate>
 
 //工具类 自定义实现代理方法
 - (BOOL)decimalTextField:(DecimalTextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string hasDot:(BOOL)hasDot;
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface DecimalTextField : UITextField
-
+@property (nonatomic, assign) NSInteger decimalScale;//精确到几位小数
 @property (nonatomic, weak) id<DecimalTextFieldDelegate> delegate;
 
 @end

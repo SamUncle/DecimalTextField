@@ -32,6 +32,10 @@
     super.delegate = self;
     _decimalDelegate = delegate;
 }
+- (id<DecimalTextFieldDelegate>)delegate{
+    
+    return _decimalDelegate;
+}
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     
@@ -89,7 +93,28 @@
         }
         
     }
-    
+    if (self.decimalScale > 0) {
+        if (string.length > 0) {
+            // 小数点后最多能输入几位
+            if (self.hasDot) {
+                NSRange ran = [textField.text rangeOfString:@"."];
+                // 由于range.location是NSUInteger类型的，所以这里不能通过(range.location - ran.location)>2来判断
+                NSInteger scale = 0;
+                if (range.location > ran.location) {
+                    if (textField == self) {
+                        scale = _decimalScale;
+                    }
+                    if ([textField.text pathExtension].length >= scale) {
+                        
+                        NSLog(@"只能输入%ld位小数",(long)scale);
+                        
+                        
+                        return NO;
+                    }
+                }
+            }
+        }
+    }
     if ([self.decimalDelegate  respondsToSelector:@selector(decimalTextField:shouldChangeCharactersInRange:replacementString:hasDot:)]) {
         return [self.decimalDelegate decimalTextField:self shouldChangeCharactersInRange:range replacementString:string hasDot:_hasDot];
     }
@@ -151,5 +176,10 @@
         result = [_decimalDelegate textFieldShouldReturn:self];
     }
     return result;
+}
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    self.keyboardType = UIKeyboardTypeDecimalPad;
 }
 @end

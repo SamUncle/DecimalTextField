@@ -36,3 +36,9 @@ return YES;
 }
 
 ```
+
+4. 精简写法
+ ```
+ self.textField.decimalScale = 3;//设置精确3位小数
+ 
+ ```
