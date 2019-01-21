@@ -95,7 +95,7 @@
     }
     return YES;
 }
-//MARK:--原来协议方法 需要重新实现
+//MARK:--UITextField原来协议方法 需要重新实现
 
 
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField       // return NO to disallow editing.
